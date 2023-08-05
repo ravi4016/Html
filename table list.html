@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container table</title>
+    <style>
+        .mytable{
+            width: 370px;
+
+        }
+        
+     .nested1{
+        position: absolute;
+        margin-top: 30px;
+        border: 1px solid yellow;
+
+     }
+     .nested2{
+margin-top: 10px;
+float: right;
+
+     }
+    .nested3{
+        margin-top: 161px;
+        position: absolute;
+    width: 222px;
+    }
+    .nested4{
+float: right;
+margin-top: 130px;
+    margin-right: -133px;
+    }
+    #colors{
+        border-color: yellow;
+    }
+    #colors2{
+        border-color: red(199, 80, 50);
+    }
+    #colors4{
+        border-color: green;
+    }
+    </style>
+</head>
+<body>
+    <h4>CONTAINER TABLE</h4>
+    
+    
+    
+        <table class="mytable" border="5px" bordercolor = "red">
+            <tr>
+            <td >
+                <div class="nested1">
+   <table border="1" id="colors">
+    <tr><tr>
+<th colspan="2">Nested Table 1</th>
+    </tr>
+    <tr>
+        <th>column 1</th>
+        <th>Column 2</th>
+    </tr>
+    <tr>
+        <td>
+            Our First Table
+        </td>
+        <td>Nested Within</td>
+    </tr></tr>
+   </table>
+</div>
+<div class="nested2">
+    <table border="1"  id="colors2">
+       <tr> <tr>
+            <th>
+                Nested Table 2
+            
+            <ul type="squre">
+                <li> List Object 1</li>
+                <li> List Object 2</li>
+                <li> List Object 3</li>
+            </ul>
+        </th>
+        </tr></tr>
+       
+    </table>
+</div>
+<div class="nested3">
+    <table border="1">
+        <tr><tr>
+            <th colspan="2" align="center">
+                Nested Table 3
+            </th>
+        </tr>
+        <tr>
+            <td ><a href="">
+               Nested Table 
+           </a> </td>
+            <td>
+                Demo Continued
+            </td>
+        </tr></tr>
+    </table>
+</div>
+<div class="nested4">
+   <table border="1" id="colors4">
+    <tr>
+        <th>
+            Nested Table 4
+            
+            
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://imagekit.io/blog/content/images/2020/12/image-resizing-html.jpg" height="100px" width="125px">
+        </td>
+    </tr>   
+    
+   </table>
+</td></tr>
+</table>
+
+</div>
+</div>
+</body>
+</html>

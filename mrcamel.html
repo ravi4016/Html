@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.camel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    box-sizing:border-box;
+    margin: 0;
+}
+.container{
+    line-height: 150%;
+}
+.header{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: rgb(224, 223, 225);
+}
+.header h1{
+    color:rgb(6, 6, 6)
+    font-size 30px;
+    font-family: 'Pacifico', cursive;
+}
+.header social{
+    margin: 0 5px;
+    color: black;
+}
+.left{
+    float: left;
+    width: 180px;
+    margin: 0;
+    padding: 1em;
+}
+
+.contant{
+    margin-left: 190px;
+      border-left: 1px solid rgb(220, 219, 219);
+      padding: 1em;
+      overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+      display: block;
+      color:black;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+    li a.active{
+        background-color: rgb(131, 233, 235);
+      color: white;
+    }
+    table{
+        font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+   .social a i.fab{color: black;
+    width: 40px;
+
+    }
+    td,
+    th {
+      border: 1px solid rgb(145, 145, 136);
+      padding: 8px;
+    }
+    
+    tr td i.fas{
+        display: block;
+        margin: 0;
+        text-align: center;
+        
+    }
+    tr th.skill{
+    background-color: rgb(131, 233, 235);
+    }
+    .footer {
+      padding: -20px 20px;
+      margin-bottom: 10px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+      
+    }
+    .footer h6{
+        font-family: 'Comforter', cursive;
+font-size: 15px;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>mr.camel</h1>
+            <div class="social"> 
+                <a href="#"><i class="fab fa-facebook"> </i></a>
+                <a href="#"><i class="fab fa-instagram"> </i></a>
+                <a href="#"><i class="fab fa-twitter"> </i></a>
+            </div>
+        </header>
+        <aside class="left">
+            <img src="https://images.unsplash.com/photo-1600373211391-98ab06c467a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FtZWxzfGVufDB8fDB8fHww&w=1000&q=80" width="140px">
+<ul>
+    <li><a class="active" href="Home">Home</a></li>
+    <li><a href="Career">Career</a></li>
+    <li><a href="Contact">Contact</a></li>
+    <li><a href="About">About</a></li>
+</ul>
+<br><br>
+<p>
+    "Do something Imporatant in the life. I convert green grass to code."
+    <br><br>
+    -mr.camel
+</p>
+        </aside>
+        <main class="contant">
+            <h2>About Me</h2>
+      <p>I don't look like some handsome horse, but I am a real desert king. I can survive days without water.</p>
+      <h2>My Career</h2>
+      <p>I work as a web developer for a company that makes websites for camel businesses.</p>
+      <hr><br>
+      <h2>How Can I Help You?</h2>
+      <table>
+        <tr>
+            <th class="skill">SKILL 1</th>
+            <th class="skill">SKILL 2</th>
+            <th class="skill">SKILL 3</th>
+        </tr>
+        <tr>
+            <td><i class="fas fa-broom"></i></td>
+          <td><i class="fas fa-archive"></i></td>
+          <td><i class="fas fa-trailer"></i></td>
+        </tr>
+        <tr>
+            <td>Cleaning kaktus in your backyard</td>
+          <td>Storing some fat for you</td>
+          <td>Taking you through the desert</td>
+        </tr>
+      </table>
+      <form >
+        <label>Email: <input type="text" name="email"></label><br><br>
+        <label> Mobile: <input type="text" name="mobile"> </label><br><br>
+        <textarea name="comments" rows="4">Enter your message</textarea><br>
+        <input type="submit" value="Submit" /><br>
+      </form>
+        </main>
+        <footer class="footer">&copy; Copyright Mr. Camel
+            <h6><marquee behavior="alternate" direction="right">Designing By; Ravi Singh Rawat</marquee></h6>
+        </footer>
+    </div>
+</body>
+</html>

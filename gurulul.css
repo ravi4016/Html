@@ -1,0 +1,122 @@
+body {font-family: 'Balsamiq Sans', cursive;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://images.pexels.com/photos/159514/yale-university-landscape-universities-schools-159514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+/* .bgimage .blur{
+    background-image: url('https://images.pexels.com/photos/159514/yale-university-landscape-universities-schools-159514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 100%;
+    filter: blur(8px);
+} */
+
+.left {
+    position: absolute;
+    top: 28px;
+    left: 34px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 150px;
+    /* border-radius: 20px; */
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: #fff;
+    border: 5px inset #fff;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 27px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    top: 34px;
+    right: 34px;
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: rgb(241, 105, 219);
+}
+
+.btn {font-family: 'Balsamiq Sans', cursive;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+.container{
+    /* border: 2px solid rgb(255, 255, 250); */
+    border-top-left-radius: 101px;
+    border-bottom-right-radius: 101px;
+    color: #fff;
+    border: 5px inset #fff;
+    margin: 81px 41px;
+    padding: 48px;
+    width: 40%;
+    /* border-radius: 28px; */
+}
+/* .header{    margin-top: -1504px;} */
+.form-group input{
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    display:block;
+    width:508px;
+    padding:1px ;
+    border:2px solid black ;
+    margin: 12px auto;
+    font-size:25px ;
+    border-radius:8px ;
+
+}
+.container h1{text-align: center;
+    font-size: 25px;
+
+}
+.container button{
+    display: block;
+    width: 103%;
+    margin: 15px auto;
+
+}
